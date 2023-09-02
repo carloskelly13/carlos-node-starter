@@ -1,0 +1,29 @@
+{
+  "name": "carlos-node-starter",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.ts",
+  "private": "true",
+  "type": "module",
+  "scripts": {
+    "dev": "ts-node src/index.ts",
+    "build": "tsup src/index.ts --format esm",
+    "lint": "eslint \"src/**/*.ts\"",
+    "lint:fix": "eslint \"src/**/*.ts\" --fix"
+  },
+  "keywords": [],
+  "bin": "dist/index.js",
+  "author": "Carlos Kelly <me@carlos.dev>",
+  "devDependencies": {
+    "@types/node": "^20.2.5",
+    "eslint": "8.45.0",
+    "eslint-config-next": "13.4.12",
+    "eslint-config-prettier": "^8.8.0",
+    "eslint-plugin-prettier": "^5.0.0",
+    "prettier": "^3.0.3",
+    "ts-node": "^10.9.1",
+    "tsup": "^6.7.0",
+    "typescript": "^5.0.4"
+  },
+  "dependencies": {}
+}
