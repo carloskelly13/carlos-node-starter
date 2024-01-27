@@ -4,7 +4,6 @@
   "description": "",
   "main": "src/index.ts",
   "private": "true",
-  "type": "module",
   "scripts": {
     "dev": "ts-node src/index.ts",
     "build": "tsup src/index.ts --format esm",
@@ -25,7 +24,7 @@
     "prettier": "^3.0.3",
     "ts-node": "^10.9.1",
     "tsup": "^6.7.0",
-    "typescript": "^5.0.4"
+    "typescript": "^5.3.3"
   },
   "dependencies": {}
 }
